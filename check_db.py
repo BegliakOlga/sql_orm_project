@@ -12,8 +12,6 @@ def main():
     if not db_url:
         print('Укажите адрес базы данных')
 
-
-
     with psycopg.connect(db_url, connect_timeout=10) as connection:
         with connection.cursor() as cursor:
             cursor.execute('SELECT current_database(), current_user')
