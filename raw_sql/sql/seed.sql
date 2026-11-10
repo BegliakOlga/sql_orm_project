@@ -1,4 +1,4 @@
-INSERT INTO IF NOT EXISTS events (title, venue, starts_at)
+INSERT INTO events (title, venue, starts_at)
 VALUES
     ('Джазовый вечер', 'Малый зал', '2026-11-15 19:00:00'),
     ('Лекция о космосе', 'Большой зал', '2026-11-16 18:00:00');
